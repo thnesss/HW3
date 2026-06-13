@@ -9,9 +9,9 @@ NUM_ROWS = 50
 COLUMNS = ["Bloger", "Social media", "Subs", "Field"]
 
 def generate_row():
-bloggers=["Mellstroy", "litvin", "MrBeast", "evkasup", "IgorSinjak", "Chikulya", "Victoria Bonya", "Lady Diana", "Vlad A4", "Ksenia Sobchak", "Maslennikov", "Buster"]
-soc=["Instagram", "Youtube", "TikTok", "Twitch"]
-fi=["casino", "sport", "beauty", "fashion", "children", "game", "Interview"]
+    bloggers=["Mellstroy", "litvin", "MrBeast", "evkasup", "IgorSinjak", "Chikulya", "Victoria Bonya", "Lady Diana", "Vlad A4", "Ksenia Sobchak", "Maslennikov", "Buster"]
+    soc=["Instagram", "Youtube", "TikTok", "Twitch"]
+    fi=["casino", "sport", "beauty", "fashion", "children", "game", "Interview"]
     return {
         "Bloger": random.choice(bloggers),
         "Social media":random.choice(soc) ,
